@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  color: #fafafa;
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Solana wallet modal — closer to CryptoAlpha dark UI */
+.wallet-adapter-modal {
+  background-color: #111111 !important;
+  color: #fafafa !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
